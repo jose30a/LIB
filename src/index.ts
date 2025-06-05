@@ -18,4 +18,8 @@ export class stack <T> {
         if(this.arr.length) return false;
         return true;
     }
+
+    public top():T | void{
+        return this.arr[this.arr.length-1];
+    }
 }
