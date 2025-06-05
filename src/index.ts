@@ -19,7 +19,10 @@ export class stack <T> {
         return true;
     }
 
-    public top():T | void{
-        return this.arr[this.arr.length-1];
+    public top(): T | undefined {
+        if (this.arr.length === 0) {
+            return undefined;
+        }
+        return this.arr[this.arr.length - 1];
     }
 }
