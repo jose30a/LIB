@@ -1,0 +1,21 @@
+{
+  "name": "topicos-lib",
+  "version": "1.0.0",
+  "description": "proyecto topicos",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "build:start": "tsc && node dist/index.js --watch"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "jabozzelli.22@est.ucab.edu.ve",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3"
+  }
+}
